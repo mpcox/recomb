@@ -1,6 +1,6 @@
 # recomb
 
-## The recomb package simulates and summarizes genetic datasets with recombination rates that change over time.
+## The *recomb* package simulates and summarizes genetic datasets with recombination rates that change over time
 
 The program *ms_recomb*, a modified version of [Richard Hudson](http://home.uchicago.edu/~rhudson1/)'s [*ms*](http://home.uchicago.edu/%7Erhudson1/source/mksamples.html), uses the coalescent to simulate genetic datasets with recombination rates that change through time. Richard Hudson kindly suggested changes to the code. *ms_recomb* can simulate changing recombination rates for a single population only.
 
@@ -23,7 +23,7 @@ Example:
 ```
 ms_recomb 5 2 -t 6.0 -r 1.0 1000 -eR 0.5 3.0 > ms_recomb.out
 ```
- 
+
 This would change the recombination parameter from 1.0 to 3.0 at time 0.5.
    
 For more detailed descriptions of these time and recombination rate parameters, see the original [*ms*](http://home.uchicago.edu/%7Erhudson1/source/mksamples.html) documentation.
@@ -42,7 +42,7 @@ g++ -O3 -o msstats_recomb msstats_recomb.cc -lsequence
 
 Examples:<br>
 
-To calculate recombination summaries on an entire *ms* dataset (i.e., with no *n*-tuple subsampling)
+To calculate recombination summaries on an entire *ms* dataset (i.e., with no *n*-tuple subsampling):
 
 ```
 ms_recomb 5 2 -t 6.0 -r 1.0 1000 -eR 0.5 3.0 | msstats_recomb
