@@ -2,7 +2,7 @@ ms_recomb
 
 # Originally written by Dick Hudson (University of Chicago)
 # Modified to allow changing recombination rates (for a single population only)
-# Murray Cox <m.p.cox@massey.ac.nz>
+# Murray Cox <murray.p.cox@gmail.com>
 
 Full instructions on how to use most functions in ms_recomb are available in the original ms documentation:
 

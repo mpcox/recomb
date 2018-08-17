@@ -2,11 +2,11 @@ msstats_recomb
 
 # Portions of code originally written by Kevin Thornton (UC Irvine)
 # Extensively modified to focus on n-tuple subsampling and summaries of recombination
-# Murray Cox <m.p.cox@massey.ac.nz>
+# Murray Cox <murray.p.cox@gmail.com>
 
 Full instructions on how to use most functions in msstats_recomb are available in the original msstats documentation:
 
-http://molpopgen.org/software/msstats/
+http://www.molpopgen.org/markdown/software.html
 
 This code variant, msstats_recomb, calculates n-tuples and specifically focuses on summaries of recombination, including a new summary statistic, min(d).
 
@@ -14,7 +14,7 @@ For more detailed descriptions of these summary statistics, see the original mss
 
 This code requires a working version of the libsequence library:
 
-http://molpopgen.org/software/libsequence.html
+https://molpopgen.github.io/libsequence/
 
 To compile type:  g++ -O3 -o msstats_recomb msstats_recomb.cc -lsequence
 
