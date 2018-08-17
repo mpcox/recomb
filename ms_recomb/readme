@@ -1,0 +1,23 @@
+ms_recomb
+
+# Originally written by Dick Hudson (University of Chicago)
+# Modified to allow changing recombination rates (for a single population only)
+# Murray Cox <m.p.cox@massey.ac.nz>
+
+Full instructions on how to use most functions in ms_recomb are available in the original ms documentation:
+
+http://home.uchicago.edu/rhudson1/source/mksamples.html
+
+This code variant, ms_recomb, allows you to change recombination rates over time, but only for a single population.  
+
+*Do not use this code to model multiple populations and changing recombination at the same time. The changing recombination function is not expected to behave correctly in this scenario.*
+
+To compile type:  gcc -O3 -o ms_recomb ms_recomb.c streec.c rand1.c -lm
+
+Example usage:
+
+ms_recomb 5 2 -t 6.0 -r 1.0 1000 -eR 0.5 3.0 > ms_recomb.out
+   
+which would change the recombination parameter from 1.0 to 3.0 at time 0.5.
+
+For more detailed descriptions of these time and recombination rate parameters, see the original ms documentation.
