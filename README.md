@@ -29,7 +29,7 @@ ms_recomb 5 2 -t 6.0 -r 1.0 1000 -eR 0.5 3.0 > ms_recomb.out
 ```
 
 This command line changes the recombination parameter from 1.0 to 3.0 at time 0.5.  All other parameters are exactly as for *ms*.
-   
+
 For more detailed descriptions of these time and recombination rate parameters, see the original [*ms*](http://home.uchicago.edu/%7Erhudson1/source/mksamples.html) documentation.
 
 
