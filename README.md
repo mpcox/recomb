@@ -4,7 +4,7 @@ The *recomb* package simulates and summarizes genetic datasets with recombinatio
 
 For details, see:
 
-Cox MP, BR Holland, MC Wilkins, J Schmid. 2013. [Reconstructing past changes in locus-specific recombination rates](https://doi.org/10.1186/1471-2156-14-11). *BMC Genetics* 14:11.
+Cox MP, BR Holland, MC Wilkins and J Schmid. 2013. [Reconstructing past changes in locus-specific recombination rates](https://doi.org/10.1186/1471-2156-14-11). *BMC Genetics* 14:11.
 
 The program *ms_recomb*, a modified version of [Richard Hudson](http://home.uchicago.edu/~rhudson1/)'s [*ms*](http://home.uchicago.edu/%7Erhudson1/source/mksamples.html), uses the coalescent to simulate genetic datasets with recombination rates that change through time. Richard Hudson kindly suggested changes to the code. The resulting code, *ms_recomb*, can simulate changing recombination rates for a single population only.
 
